@@ -7,8 +7,8 @@ import asyncio
 import telebot
 import os
 
-client = telebot.TeleBot('1194055774:AAFW-kFssaRFsW8BUspZ8ULnzULG3I9Rl4Y')
-ytoken = 'AIzaSyC8GJYgJyBgwwtiVKUPKept85jA4d96puM'
+client = telebot.TeleBot(TELEGRAM_TOKEN)
+ytoken = YOUTUBE_TOKEN
 def_video_id = ''
 def_title = ''
 dnl_file = ''
